@@ -1,23 +1,6 @@
 ## Goal
-This is an app to teach how to create a .
+This is an app to teach how to create an input to toggle all other inputs.
 
-# Under Construction
-
-```
-          __       ___
-         /__\     (-}
-         \__/    .-"-.[m,]
-      [__][__]  /)\ /\)/
-      [][__][__]\__ [__][]
-      [__][__][__][__][__]
-      [][__][__][__][__][]
-      [__][__][__][__][__]
-      [][__][__][__][__][]
-  ejm [__][__][__][__][__]
-
-https://asciiart.website/index.php?art=people/occupations/builders
-
-```
 
 ### How to
 
