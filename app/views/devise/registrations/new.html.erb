@@ -15,7 +15,11 @@
     <%= f.input :password_confirmation,
                 required: true,
                 input_html: { autocomplete: "new-password" } %>
-    <%= f.association :skills %>
+
+    <%= f.association :skills, 
+                      as: :check_boxes, 
+                      collection: [ Skill.new(name: "All Skills") ] + Skill.all,
+                      input_html: { class: 'select-all'} %>
   </div>
 
   <div class="form-actions">
