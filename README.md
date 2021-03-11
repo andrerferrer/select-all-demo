@@ -5,9 +5,12 @@ This app was created from [this demo](https://github.com/andrerferrer/devise-nes
 
 [You can also check my other demos](https://github.com/andrerferrer/dedemos/blob/master/README.md#ded%C3%A9mos).
 
-### How to
+### How I did it
 
-1. []()
+1. [add all skills input to the form](https://github.com/andrerferrer/select-all-demo/commit/2106b6e8e6a4833836c22366b3f72e0fb6238bab)
+1. [add the JS to handle clicking on ALL](https://github.com/andrerferrer/select-all-demo/commit/3647be9732832f23bccb8f3c03ceb3510736b4f0)
+1. [Create fake input for all_skills](https://github.com/andrerferrer/select-all-demo/commit/1f007d8280328a50166c0aeeba7f1d9dab1f36ce)
+1. [Adjust JS with new fake input](https://github.com/andrerferrer/select-all-demo/commit/ee358546dc576c973e2bf696a90f4775afe68f92)
 
 ### If you want to check it locally
 ```sh
