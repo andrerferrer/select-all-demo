@@ -16,10 +16,14 @@
                 required: true,
                 input_html: { autocomplete: "new-password" } %>
 
+    <%= simple_fields_for :all do |sf| %>
+      <%= sf.input :skills, as: :boolean, wrapper: false, label: "All Skills" %>
+    <% end %>
+
     <%= f.association :skills, 
                       as: :check_boxes, 
-                      collection: [ Skill.new(name: "All Skills") ] + Skill.all,
-                      input_html: { class: 'select-all'} %>
+                      input_html: { class: 'select-all'},
+                      legend_tag: false %>
   </div>
 
   <div class="form-actions">
