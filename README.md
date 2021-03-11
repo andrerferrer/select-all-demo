@@ -1,6 +1,9 @@
 ## Goal
 This is an app to teach how to create an input to toggle all other inputs.
 
+This app was created from [this demo](https://github.com/andrerferrer/devise-nested-model-demo#goal).
+
+[You can also check my other demos](https://github.com/andrerferrer/dedemos/blob/master/README.md#ded%C3%A9mos).
 
 ### How to
 
