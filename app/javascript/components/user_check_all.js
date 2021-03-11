@@ -11,14 +11,14 @@ const userCheckAll = () => {
     
     const uncheckFirstInput = (event) => {
       if (!event.currentTarget.checked) {
-        document.getElementById('user_skill_ids').checked = false
+        document.getElementById('all_skills').checked = false
       }
     }
   
-    document.getElementById('user_skill_ids')
+    document.getElementById('all_skills')
             .addEventListener('change', checkAllInputs)
   
-    const inputsNotTheFirst = document.querySelectorAll("#new_user .select-all:not(#user_skill_ids)")
+    const inputsNotTheFirst = document.querySelectorAll("#new_user .select-all")
     inputsNotTheFirst.forEach((input) => {
       input.addEventListener('change', uncheckFirstInput)
     })  
